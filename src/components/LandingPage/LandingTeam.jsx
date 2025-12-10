@@ -2,11 +2,11 @@ import React from 'react';
 
 function LandingTeam() {
     const teamMembers = [
-        { name: "Adzrul", photo: "/images/adzrul.jpg" },
-        { name: "Eli", photo: "/images/eli.jpg" },
-        { name: "Hafizan", photo: "/images/hafizan.jpg" },
-        { name: "Jason", photo: "/images/jason.jpg" },
-        { name: "Theresa", photo: "/images/theresa.jpg" },
+        { name: "Adzrul", photo: "/images/A.jpg" },
+        { name: "Eli", photo: "/images/E.jpg" },
+        { name: "Hafizan", photo: "/images/H.jpg" },
+        { name: "Jason", photo: "/images/J.jpg" },
+        { name: "Theresa", photo: "/images/T.jpg" },
     ];
 
     return (

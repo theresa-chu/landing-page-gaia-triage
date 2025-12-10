@@ -26,7 +26,7 @@ function LoginPage({ onBackClick }) {
             return;
         }
 
-        if (email === 'doctor@hospital.gov.my' && password === 'password123') {
+        if (email === 'johndoe@gmail.com' && password === 'password123') {
             // alert('Login successful! Welcome, ' + email + '!');
             // In a real app, you'd redirect or set user state here
             window.location.href = 'https://gaia-triage-system.vercel.app/'; // Redirect
@@ -36,7 +36,8 @@ function LoginPage({ onBackClick }) {
     };
 
     const handleGoogleSignIn = () => {
-        alert('Google Sign-In initiated!');
+        alert('Google Sign-In successful!');
+        window.location.href = 'https://gaia-triage-system.vercel.app/';
     };
 
     const handleForgotPassword = (e) => {
