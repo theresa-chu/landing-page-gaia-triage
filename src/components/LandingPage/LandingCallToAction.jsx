@@ -13,7 +13,7 @@ function LandingCallToAction({ onLoginClick }) {
                 </p>
                 <button 
                     onClick={onLoginClick}
-                    className="px-10 py-4 bg-white text-[#1B928C] font-semibold text-xl rounded-lg shadow-lg hover:bg-[#DEF2F1] transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1"
+                    className="px-10 py-4 bg-white text-[#1B928C] font-semibold text-xl rounded-lg shadow-lg hover:bg-[#DEF2F1] transition-all duration-300 hover:shadow-xl transform mx-auto block"
                 >
                     Start Your Journey
                 </button>

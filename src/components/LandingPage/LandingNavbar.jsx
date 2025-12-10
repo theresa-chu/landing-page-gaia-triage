@@ -12,11 +12,11 @@ function LandingNavbar({ onLoginClick }) {
                             className="h-10 md:h-14 w-auto"
                         />
                     </div>
-                    <div className="hidden md:flex items-center space-x-8">
+                    {/* <div className="hidden md:flex items-center space-x-8">
                         <a href="#features" className="text-[#3F3F46] hover:text-[#1B928C] font-medium transition-colors">Features</a>
                         <a href="#stats" className="text-[#3F3F46] hover:text-[#1B928C] font-medium transition-colors">Statistics</a>
                         <a href="#about" className="text-[#3F3F46] hover:text-[#1B928C] font-medium transition-colors">About</a>
-                    </div>
+                    </div> */}
                     <button 
                         onClick={onLoginClick}
                         className="px-6 py-2.5 bg-[#1B928C] text-white font-medium rounded-lg shadow-sm hover:bg-[#157872] transition-all duration-300 hover:shadow-md"
