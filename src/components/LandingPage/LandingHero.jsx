@@ -31,13 +31,13 @@ function LandingHero({ onLoginClick }) {
                             <div className="flex flex-col sm:flex-row gap-4">
                                 <button 
                                     onClick={onLoginClick}
-                                    className="px-8 py-4 bg-white text-[#1B928C] font-semibold text-lg rounded-lg shadow-lg hover:bg-[#DEF2F1] transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1"
+                                    className="px-8 py-4 bg-white text-[#1B928C] font-semibold text-lg rounded-lg shadow-lg hover:bg-[#DEF2F1] transition-all duration-300 hover:shadow-xl transform mx-auto block"
                                 >
                                     Get Started
                                 </button>
-                                <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold text-lg rounded-lg hover:bg-white/10 transition-all duration-300">
+                                {/* <button className="px-8 py-4 bg-transparent border-2 border-white text-white font-semibold text-lg rounded-lg hover:bg-white/10 transition-all duration-300">
                                     Learn More
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                     </div>
