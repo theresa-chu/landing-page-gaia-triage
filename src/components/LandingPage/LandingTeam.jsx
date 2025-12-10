@@ -2,7 +2,7 @@ import React from 'react';
 
 function LandingTeam() {
     const teamMembers = [
-        { name: "Adzrul", photo: "/images/adzrul.jpg" }, // Replace with actual paths later
+        { name: "Adzrul", photo: "/images/adzrul.jpg" },
         { name: "Eli", photo: "/images/eli.jpg" },
         { name: "Hafizan", photo: "/images/hafizan.jpg" },
         { name: "Jason", photo: "/images/jason.jpg" },

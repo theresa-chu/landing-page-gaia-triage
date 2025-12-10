@@ -27,8 +27,9 @@ function LoginPage({ onBackClick }) {
         }
 
         if (email === 'doctor@hospital.gov.my' && password === 'password123') {
-            alert('Login successful! Welcome, ' + email + '!');
+            // alert('Login successful! Welcome, ' + email + '!');
             // In a real app, you'd redirect or set user state here
+            window.location.href = 'https://gaia-triage-system.vercel.app/'; // Redirect
         } else {
             setError('Invalid email or password. Please try again.');
         }
