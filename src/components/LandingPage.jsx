@@ -13,7 +13,7 @@ function LandingPage({ onLoginClick }) {
         <div className="min-h-screen bg-[#DEF2F1] font-sans">
             <LandingNavbar onLoginClick={onLoginClick} />
             <LandingHero onLoginClick={onLoginClick} />
-            <LandingStats />
+            {/* <LandingStats /> */}
             <LandingFeatures />
             <LandingAbout />
             <LandingTeam />

@@ -5,9 +5,9 @@ function LandingFooter() {
         <footer className="bg-[#3F3F46] text-white py-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 {/* <img 
-                    src="/images/unnamed-removebg-preview.png" 
+                    src="/favicon.png" 
                     alt="ClearStats Logo" 
-                    className="h-12 w-auto mx-auto mb-6"
+                    // className="h-12 w-auto mx-auto mb-6"
                 /> */}
                 <p className="text-sm mb-4">
                     &copy; {new Date().getFullYear()} ClearStats. All rights reserved.
